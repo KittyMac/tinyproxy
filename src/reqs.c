@@ -909,6 +909,8 @@ process_client_headers (struct conn_s *connptr, orderedmap hashofheaders)
                 "host",
                 "keep-alive",
                 "proxy-connection",
+                "proxy-authenticate",
+                "proxy-authorization",
                 "te",
                 "trailers",
                 "upgrade"
